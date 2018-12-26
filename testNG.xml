@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+<listeners>
+<listener class-name="com.crm.qa.extentreport.ExtentReporterNG"></listener>
+</listeners>
+  <test thread-count="5" verbose="2" name="Default test" >
+  <parameter name="username" value="Vikas22jan"></parameter>
+  <parameter name="password" value="abc@123"></parameter>
+    <classes>
+         <class name="com.crm.qa.test.ContactPageTest">
+      </class>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

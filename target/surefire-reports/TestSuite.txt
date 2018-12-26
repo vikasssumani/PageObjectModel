@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 179.292 s <<< FAILURE! - in TestSuite
+ContactPageSetUp(com.crm.qa.test.ContactPageTest)  Time elapsed: 153.362 s  <<< FAILURE!
+java.lang.StackOverflowError
+

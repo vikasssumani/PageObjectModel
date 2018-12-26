@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Default test(failed)">
+    <parameter name="password" value="abc@123"/>
+    <parameter name="username" value="Vikas22jan"/>
+    <classes>
+      <class name="com.crm.qa.test.ContactPageTest">
+        <methods>
+          <include name="ContactPageSetUp"/>
+          <include name="createNewContact"/>
+          <include name="selectGivenContact"/>
+        </methods>
+      </class> <!-- com.crm.qa.test.ContactPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

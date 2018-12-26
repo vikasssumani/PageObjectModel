@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78631" started-at="2018-11-19T14:08:45Z" finished-at="2018-11-19T14:10:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78631" started-at="2018-11-19T14:08:45Z" finished-at="2018-11-19T14:10:04Z">
+      <class name="com.crm.qa.test.HomePageTest">
+        <test-method status="PASS" signature="ConatctPageSetUp()[pri:0, instance:com.crm.qa.test.HomePageTest@32709393]" name="ConatctPageSetUp" is-config="true" duration-ms="19832" started-at="2018-11-19T14:08:46Z" finished-at="2018-11-19T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConatctPageSetUp -->
+        <test-method status="PASS" signature="validateUserName()[pri:1, instance:com.crm.qa.test.HomePageTest@32709393]" name="validateUserName" duration-ms="127" started-at="2018-11-19T14:09:05Z" finished-at="2018-11-19T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserName -->
+        <test-method status="PASS" signature="ConatctPageSetUp()[pri:0, instance:com.crm.qa.test.HomePageTest@32709393]" name="ConatctPageSetUp" is-config="true" duration-ms="20578" started-at="2018-11-19T14:09:06Z" finished-at="2018-11-19T14:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConatctPageSetUp -->
+        <test-method status="PASS" signature="validateLogOut()[pri:2, instance:com.crm.qa.test.HomePageTest@32709393]" name="validateLogOut" duration-ms="66" started-at="2018-11-19T14:09:26Z" finished-at="2018-11-19T14:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogOut -->
+        <test-method status="PASS" signature="ConatctPageSetUp()[pri:0, instance:com.crm.qa.test.HomePageTest@32709393]" name="ConatctPageSetUp" is-config="true" duration-ms="19052" started-at="2018-11-19T14:09:26Z" finished-at="2018-11-19T14:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConatctPageSetUp -->
+        <test-method status="PASS" signature="goToContantPage()[pri:3, instance:com.crm.qa.test.HomePageTest@32709393]" name="goToContantPage" duration-ms="201" started-at="2018-11-19T14:09:45Z" finished-at="2018-11-19T14:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToContantPage -->
+        <test-method status="PASS" signature="ConatctPageSetUp()[pri:0, instance:com.crm.qa.test.HomePageTest@32709393]" name="ConatctPageSetUp" is-config="true" duration-ms="18452" started-at="2018-11-19T14:09:45Z" finished-at="2018-11-19T14:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConatctPageSetUp -->
+        <test-method status="PASS" signature="setMonth()[pri:4, instance:com.crm.qa.test.HomePageTest@32709393]" name="setMonth" duration-ms="234" started-at="2018-11-19T14:10:04Z" finished-at="2018-11-19T14:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMonth -->
+      </class> <!-- com.crm.qa.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
